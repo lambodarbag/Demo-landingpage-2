@@ -90,3 +90,35 @@ html, body {
     color: white;
     border-radius: 50%;
 }
+
+#bottom {
+    height: 45vh;
+    width: 100%;
+    background-color: brown;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#bottom-left {
+    width: 70%;
+    height: 100%;
+    background-color: rgb(12, 84, 84);
+    padding: 40px;
+    border-left: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#bottom-up {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: blueviolet;
+}
+#bottom-down {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 2px solid black;
+
+}
